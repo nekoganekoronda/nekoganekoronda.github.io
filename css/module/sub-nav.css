@@ -1,0 +1,65 @@
+.sub-nav {
+  color: white;
+}
+.sub-nav a {
+  color: #333;
+}
+.sub-nav+.sub-nav {
+  margin-top: 4em;
+}
+.sub-nav-title {
+  margin: 0;
+  font-size: 1.8em;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8;
+  background-color: #1393EA;
+  padding-left: 10px;
+}
+.sub-nav-underbar {
+  padding-bottom: 0.5em;
+  border-bottom: 4px solid #1393EA;
+}
+.sub-nav-info {
+  width: 100%;
+  font-weight: bold;
+  font-size: 1em;
+}
+.sub-nav-info time {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.sub-nav-info p {
+  line-height: 1.5;
+}
+.sub-nav-info .latest::after {
+  content: "最新";
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: yellow;
+}
+.img-administrator {
+  width: 100%;
+  height: 100%;
+  margin-top: 0.5em;
+}
+.administrator {
+  color: #333;
+}
+.administrator .name {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.administrator p {
+  font-size: 1.2em;
+}
+.administrator .detail {
+  background-color: #1393EA;
+  color: white;
+  padding-left: 10px;
+}
